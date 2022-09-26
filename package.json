@@ -1,21 +1,39 @@
 {
-    "name": "nicotsou",
-    "displayName": "Nicotsou",
-    "description": "",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.61.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Nicotsou",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Nicotsou-color-theme.json"
-            }
-        ]
-    }
+  "name": "montana",
+  "displayName": "Montana",
+  "description": "",
+  "version": "0.0.1",
+  "publisher": "NicotsouThemes",
+  "engines": {
+    "vscode": "^1.61.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "license": "MIT",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Montana",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Montana-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nicotsou/montana-theme.git"
+  },
+  "keywords": [
+    "theme",
+    "dark",
+    "purple",
+    "modern"
+  ],
+  "scripts": {
+    "package": "vsce package"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
 }
