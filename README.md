@@ -2,7 +2,7 @@
 
 This is the official theme from the course series [TLTR; TypeScript](https://tltr-typescript.com).
 
-![Screenshot](./montana.png)
+![Screenshot](https://github.com/nicotsou/montana-theme/blob/master/Montana.png?raw=true)
 
 ## Install
 
